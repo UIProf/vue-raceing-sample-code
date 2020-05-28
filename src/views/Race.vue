@@ -27,7 +27,7 @@ export default {
   methods: {
     ...mapActions(['fetchRaces']),
     toggleCategory (e) {
-      console.log(e.target.classlist)
+      this.showCategoryId = !this.showCategoryId
     },
     dateTimeFormate (value) {
       if (value) {

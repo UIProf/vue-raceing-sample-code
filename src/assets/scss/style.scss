@@ -8,6 +8,31 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+
+  .show-all-race{
+    margin: 10px 5px;
+    width : 100%;
+
+    .cat-id{
+      background: #5f5b5b;
+      color: white;
+      padding: 10px;
+      text-align: left;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .race-details{
+      display: flex;
+
+      div{
+        flex: 1 50%;
+        text-align: left;
+        padding: 10px;
+      }
+
+    }
+  }
 }
 
 #nav {
